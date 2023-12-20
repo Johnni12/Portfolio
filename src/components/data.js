@@ -57,12 +57,12 @@ export const projectsData = [
 
 // data.js
 export const stackData = [
-  { id: 1, name: 'HTML', level: 80 },
-  { id: 2, name: 'CSS', level: 70 },
-  { id: 3, name: 'JavaScript', level: 75 },
-  { id: 4, name: 'React', level: 85 },
-  { id: 5, name: 'Node.js', level: 80 },
-  // Add more technologies as needed
+  { id: 1, name: 'HTML & CSS', level: 'Advanced' },
+  { id: 2, name: 'Tailwind CSS', level: 'Intermediate' },
+  { id: 3, name: 'JavaScript', level: 'Intermediate' },
+  { id: 4, name: 'React JS', level: 'Intermidate' },
+  { id: 5, name: 'Vue JS', level: 'Intermediate' },
+  { id: 6, name: 'Node.JS', level: 'Beginner' },
 ]
 
 
