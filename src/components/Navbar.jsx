@@ -20,8 +20,9 @@ const Navbar = () => {
           <a href='#' className='hover:text-darkGrayishBlue'>
             Technologies
           </a>
+          
           <a href='#' className='hover:text-darkGrayishBlue'>
-            About Me
+            Contact
           </a>
         </div>
 

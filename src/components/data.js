@@ -55,14 +55,24 @@ export const projectsData = [
   },
 ]
 
-// data.js
+
 export const stackData = [
   { id: 1, name: 'HTML & CSS', level: 'Advanced' },
-  { id: 2, name: 'Tailwind CSS', level: 'Intermediate' },
+  { id: 2, name: 'Tailwind CSS', level: 'Advanced' },
   { id: 3, name: 'JavaScript', level: 'Intermediate' },
-  { id: 4, name: 'React JS', level: 'Intermidate' },
+  { id: 4, name: 'React JS', level: 'Intermediate' },
   { id: 5, name: 'Vue JS', level: 'Intermediate' },
   { id: 6, name: 'Node.JS', level: 'Beginner' },
 ]
 
 
+export const experienceData = [
+  {
+    id: 1,
+    title: 'Software Developer',
+    company: 'Threadin',
+    duration: 'January 2023 - Present',
+    description: ' React and Node.js.',
+  },
+ 
+]

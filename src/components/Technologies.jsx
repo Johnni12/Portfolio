@@ -8,20 +8,20 @@ const Technology = () => {
     
     switch (level) {
       case 'Beginner':
-        width = '25%' 
-        gradientColor = `linear-gradient(to right, #FF6B6B ${width}, #F0F0F0 ${width})`
+        width = '35%' 
+        gradientColor = `linear-gradient(to right, #925ed4  ${width}, #726fd0  ${width})`
         break
       case 'Intermediate':
-        width = '50%' 
-        gradientColor = `linear-gradient(to right, #FFD166 ${width}, #F0F0F0 ${width})`
+        width = '65%' 
+        gradientColor = `linear-gradient(to right, #925ed4  ${width}, #726fd0  ${width})`
         break
       case 'Advanced':
-        width = '75%' 
-        gradientColor = `linear-gradient(to right, #06D6A0 ${width}, #F0F0F0 ${width})`
+        width = '85%' 
+        gradientColor = `linear-gradient(to right, #925ed4 ${width}, #726fd0 ${width})`
         break
       default:
         width = '0%'
-        gradientColor = 'linear-gradient(to right, #F0F0F0 0%, #F0F0F0 0%)'
+        gradientColor = 'linear-gradient(to right, #925ed4  0%, #726fd0  0%)'
     }
 
     return {
