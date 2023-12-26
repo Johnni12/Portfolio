@@ -31,7 +31,7 @@ const Technology = () => {
   }
 
   return (
-    <div className='mb-14 my-14'>
+    <div id='tech' className='mb-14 my-14'>
       <h1 className='mx-2 text-darkGrayishBlue mb-4 ml-6 text-3xl'>
         Technologies
       </h1>

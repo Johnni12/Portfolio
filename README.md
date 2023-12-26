@@ -17,5 +17,5 @@ This portfolio project serves as a central hub to highlight my achievements, ski
 
 
 
-To view the portfolio, simply [visit the live site](#). If you would like to run the project locally, follow these steps:
+To view the portfolio, simply [visit the live site](#). 
 
