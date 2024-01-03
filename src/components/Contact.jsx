@@ -19,7 +19,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    // Use your EmailJS template and service ID
+   
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
@@ -28,21 +28,21 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_9js7kc5', // Replace with your EmailJS service ID
-        'template_h2xdv1d', // Replace with your EmailJS template ID
+        'service_9js7kc5',
+        'template_h2xdv1d', 
         templateParams,
-        'W4Cr2IWqMM7P8FJh0' // Replace with your EmailJS user ID
+        'W4Cr2IWqMM7P8FJh0' 
       )
       .then((response) => {
         console.log('Email sent successfully:', response)
-        // You can add further actions after the email is sent, such as displaying a success message.
+       
       })
       .catch((error) => {
         console.error('Email failed to send:', error)
-        // Handle errors, such as displaying an error message to the user.
+       
       })
 
-    // Reset form data after submission
+   
     setFormData({
       name: '',
       email: '',
