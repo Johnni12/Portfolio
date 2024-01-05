@@ -17,5 +17,5 @@ This portfolio project serves as a central hub to highlight my achievements, ski
 
 
 
-To view the portfolio, simply [visit the live site](#). 
+To view the portfolio, simply [visit the live site](https://dulcet-druid-f0abaf.netlify.app/). 
 
