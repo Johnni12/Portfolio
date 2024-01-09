@@ -65,7 +65,7 @@ export const stackData = [
   { id: 6, name: 'Node.JS', level: 'Beginner' },
 ]
 
-
+//experience array
 export const experienceData = [
   {
     id: 1,
